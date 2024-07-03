@@ -8,14 +8,14 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.mjs
-    siteTitle: `Minimal Blog`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    siteTitle: `N3rdyUn1c0rn:The Unicorn Ether`,
+    siteTitleAlt: `N3rdyUn1c0rn:The Unicorn Ether`,
+    siteHeadline: `N3rdyUn1c0rn:The Unicorn Ether - crawl the web`,
+    siteUrl: `https://nerdyunicorn.net`,
+    siteDescription: `Possibly a blog on Technology and Cybersecurity, who knows?`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `@N3rdyUn1c0rn`,
   },
   trailingSlash: `always`,
   plugins: [
@@ -35,12 +35,12 @@ const config: GatsbyConfig = {
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            name: `Mastodon`,
+            url: `https://infosec.exchange/@N3rdyUn1c0rn`,
           },
           {
             name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            url: `https://www.nerdyunicorn.net`,
           },
         ],
       },
@@ -54,9 +54,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `N3rdyUn1c0rn:The Unicorn Ether`,
+        short_name: `N3rdyUn1c0rn_`,
+        description: `Possibly a blog on Technology and Cybersecurity, who knows?`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
