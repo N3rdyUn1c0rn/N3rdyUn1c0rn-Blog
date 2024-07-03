@@ -8,10 +8,10 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.mjs
-    siteTitle: `N3rdyUn1c0rn:The Unicorn Ether`,
-    siteTitleAlt: `N3rdyUn1c0rn:The Unicorn Ether`,
+    siteTitle: `N3rdyUn1c0rn:The_Unicorn_Ether`,
+    siteTitleAlt: `N3rdyUn1c0rn : The Unicorn Ether`,
     siteHeadline: `N3rdyUn1c0rn:The Unicorn Ether - crawl the web`,
-    siteUrl: `https://nerdyunicorn.net`,
+    siteUrl: `https://www.nerdyunicorn.net`,
     siteDescription: `Possibly a blog on Technology and Cybersecurity, who knows?`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
@@ -54,7 +54,7 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `N3rdyUn1c0rn:The Unicorn Ether`,
+        name: `N3rdyUn1c0rn:The_Unicorn_Ether`,
         short_name: `N3rdyUn1c0rn_`,
         description: `Possibly a blog on Technology and Cybersecurity, who knows?`,
         start_url: `/`,
