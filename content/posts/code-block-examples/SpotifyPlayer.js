@@ -12,7 +12,7 @@ const sizePresets = {
   },
 }
 
-function SpotifyPlayer({ albumUri = `6Ar5HxNWXtvraqs7FI7bYq`, size = `normal` }) {
+function SpotifyPlayer({ albumUri = `4bplGkhwmNIVjMf2rTGeW5`, size = `normal` }) {
   return (
     <iframe
       title="Spotify"
